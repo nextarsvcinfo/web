@@ -1,0 +1,216 @@
+@import 'style3.scss';
+// header
+#nextar-header{
+    margin-top:0px;
+    .navbar-brand{
+        width:150px;
+        padding:15px 5px;
+        vertical-align: middle;
+        img{
+            width:100%;
+        }
+    }
+}
+#nextar-home .text-wrap{
+    position: relative;
+    display: block;
+    height:auto;
+}
+#nextar-home{
+    height:auto;
+    padding:60px 0 25px 0;
+    .text-wrapper{
+        margin-top:20px;
+    }
+    .text-inner .row{
+        vertical-align: middle;
+      
+        width:100%;
+        h2{}
+        img{width:100%;}
+    }
+    @media only screen  and (max-width:900px){
+        vertical-align: top;
+        display: block;
+        text-align: center;
+         .text-inner{
+             display: block;
+         }
+        .text-wrap{
+            height: auto;
+            padding:40px 0 15px 0;
+        }
+        .text-inner .row{
+            margin:auto;
+            img{
+                vertical-align: top;
+                max-width: 320px;
+            }
+        }
+        img{
+            margin:auto;
+        
+        }
+        .text-wrapper{
+            background: rgba(#000,0.5);
+            padding:15px;
+            margin-top:20px;
+            margin-bottom: 20px;
+            h2{
+                font-size:12pt;
+                line-height: 20px;
+
+            }
+        }
+        #nextar-intro .project-block h2 {
+            font-size: 16px;
+        }
+    }
+    @media only screen  and (max-width:640px){
+        .text-inner .row{
+            .text-wrapper{
+            }
+        }
+    }
+}
+// project
+
+#nextar-intro{
+    
+    padding:5px;
+    margin-top:0px;
+    padding-top:60px;
+    padding-bottom:30px;
+
+    .gradient{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        opacity: .9;
+         @include fh5co-gradient;
+    }
+    
+}
+#nextar-intro .project-block > .overlay-darker{
+    background:transparent;
+}
+#nextar-intro .project-block > .overlay {
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    z-index: 9;
+
+}
+#nextar-intro .project-block{
+    width:24%;
+    margin:0 0.5%;
+    min-height: 100px;
+    padding:0;
+    h2{
+        line-height:30px;
+        margin-bottom:0px;
+        color:#000;
+    }
+    p{
+        color:#2b2b2b;
+
+    }
+    &:hover{
+        p{color:#e8e8e8;
+        }
+    }
+    @media screen  and (max-width:600px){
+        width:100%;
+        margin:10px auto;
+        .project-wrapper{
+            img{
+                margin-top: 15px;
+            }
+        } 
+    }
+}
+.media-size {
+    @media screen  and (max-width:600px){
+        width:100%;
+        margin:250px 0px auto!important;
+    }
+}
+#nextar-home .text-inner h4 {
+    color: rgba(255, 255, 255, 0.8);
+}
+#nextar-home .text-inner {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+
+ .project-wrapper{
+    margin:auto;
+     padding:0 5px;
+     text-align: center;
+     img{
+         width:100%;
+         margin:auto;
+         max-width: 200px;
+     }
+ }
+ .img-size {
+    margin-top: 200px;
+    @media screen  and (max-width:600px){
+        margin-top: 0px;
+    }
+}
+.text-wrapper{
+    line-height: 100px;
+    margin-top:150px;
+    margin-bottom:50px;
+    h2{
+        line-height: 40px;
+    }
+   @media screen  and (max-width:600px){
+       
+   }
+}
+#footer{
+    @include fh5co-gradient;
+    color:#fff;
+}
+ #nextar-contact{
+     padding:60px 0 0 0;
+ }
+ #footer{
+     padding:30px 0;
+     text-align: center;
+    .footer-img{
+        position: relative;
+        margin:auto;
+        margin-top:30px;
+        width:100%;
+        max-width: 350px;
+        vertical-align: middle;
+    }
+ }
+ .footer-text-wrapper{
+     text-align:left;
+     line-height:30px;
+     i{margin-right:15px;}
+     p{margin:0;}
+ }
+ #nextar-home .text-inner h1.servicetext {
+    font-size: 40px;
+}
+.mt-20 {
+    margin-top: 30px;
+}
+#nextar-home h2 p {
+    margin-bottom: 1em;
+}
+#nextar-contact i {
+    margin-right: 15px;
+}
+.line-height50 p {
+    line-height: 50px;
+}
+
